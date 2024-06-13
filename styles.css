@@ -8,6 +8,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
+    background-color: #f0f2f5;
 }
 
 .container {
@@ -69,7 +70,7 @@ header nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Overlay to make text readable */
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -136,4 +137,56 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+.form-section {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section form label {
+    margin-top: 10px;
+}
+
+.form-section form input,
+.form-section form select,
+.form-section form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section form button {
+    background: #0073e6;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-section form button:hover {
+    background: #005bb5;
+}
+.job-listing {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing h3 {
+    margin-bottom: 10px;
+}
+
+.job-listing p {
+    margin: 5px 0;
 }
